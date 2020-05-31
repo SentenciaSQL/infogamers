@@ -1,0 +1,2290 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Gauge\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-10-29 12:25-0000\n"
+"PO-Revision-Date: 2018-10-29 12:26-0000\n"
+"Last-Translator: GhostPool\n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;esc_attr_e;_n_noop:1,2;"
+"esc_html_e;esc_html__;esc_attr__\n"
+"X-Poedit-Basepath: ./\n"
+"X-Generator: Poedit 1.7.4\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../importer/parsers.php:42 ../importer/parsers.php:63
+msgid "There was an error when reading this WXR file"
+msgstr ""
+
+#: ../importer/parsers.php:43
+msgid ""
+"Details are shown above. The importer will now try again with a different "
+"parser..."
+msgstr ""
+
+#: ../importer/parsers.php:67 ../importer/parsers.php:72
+#: ../importer/parsers.php:262 ../importer/parsers.php:447
+msgid ""
+"This does not appear to be a WXR file, missing/invalid WXR version number"
+msgstr ""
+
+#: ../importer/radium-importer.php:201
+msgid ""
+"Importing demo data is the easiest way to setup your theme. It will allow "
+"you to quickly edit everything seen in the theme demo instead of creating "
+"everything from scratch. When you import the demo data please note the "
+"following:"
+msgstr ""
+
+#: ../importer/radium-importer.php:204
+msgid "No existing data will be deleted or modified."
+msgstr ""
+
+#: ../importer/radium-importer.php:205
+msgid "Posts, pages, categories, media, widgets and menus will be imported."
+msgstr ""
+
+#: ../importer/radium-importer.php:206
+msgid ""
+"To import WooCommerce and bbPress data please activate these plugins "
+"<strong>before</strong> importing the demo data."
+msgstr ""
+
+#: ../importer/radium-importer.php:207
+msgid ""
+"BuddyPress Activity, Groups and Members seen in the demo will NOT be "
+"imported. You can import dummy BuddyPress data using the <a href=\"https://"
+"wordpress.org/plugins/bp-default-data/\" target=\"_blank\">BuddyPress "
+"Default Data</a> plugin."
+msgstr ""
+
+#: ../importer/radium-importer.php:231 ../importer/radium-importer.php:240
+msgid "Import Demo Data"
+msgstr ""
+
+#: ../importer/radium-importer.php:247
+msgid "Importing now, this can take a few minutes"
+msgstr ""
+
+#: ../importer/radium-importer.php:261
+msgid "You have successfully imported the demo data."
+msgstr ""
+
+#: ../importer/radium-importer.php:452
+msgid "Theme options Import file could not be found. Please try again."
+msgstr ""
+
+#: ../importer/radium-importer.php:510
+msgid "Widget Import file could not be found. Please try again."
+msgstr ""
+
+#: ../importer/radium-importer.php:583
+msgid "Sidebar does not exist in theme (using Inactive)"
+msgstr ""
+
+#: ../importer/radium-importer.php:605
+msgid "Site does not support widget"
+msgstr ""
+
+#: ../importer/radium-importer.php:628
+msgid "Widget already exists"
+msgstr ""
+
+#: ../importer/radium-importer.php:677
+msgid "Imported"
+msgstr ""
+
+#: ../importer/radium-importer.php:680
+msgid "Imported to Inactive"
+msgstr ""
+
+#: ../importer/wordpress-importer.php:134
+#: ../importer/wordpress-importer.php:143
+#: ../importer/wordpress-importer.php:194
+#: ../importer/wordpress-importer.php:198
+#: ../importer/wordpress-importer.php:207
+msgid "Sorry, there has been an error."
+msgstr ""
+
+#: ../importer/wordpress-importer.php:135
+msgid "The file does not exist, please try again."
+msgstr ""
+
+#: ../importer/wordpress-importer.php:178
+msgid "All done."
+msgstr ""
+
+#: ../importer/wordpress-importer.php:178
+msgid "Have fun!"
+msgstr ""
+
+#: ../importer/wordpress-importer.php:179
+msgid "Remember to update the passwords and roles of imported users."
+msgstr ""
+
+#: ../importer/wordpress-importer.php:199
+#, php-format
+msgid ""
+"The export file could not be found at <code>%s</code>. It is likely that "
+"this was caused by a permissions problem."
+msgstr ""
+
+#: ../importer/wordpress-importer.php:215
+#, php-format
+msgid ""
+"This WXR file (version %s) may not be supported by this version of the "
+"importer. Please consider updating."
+msgstr ""
+
+#: ../importer/wordpress-importer.php:240
+#, php-format
+msgid ""
+"Failed to import author %s. Their posts will be attributed to the current "
+"user."
+msgstr ""
+
+#: ../importer/wordpress-importer.php:266
+msgid "Assign Authors"
+msgstr ""
+
+#: ../importer/wordpress-importer.php:267
+msgid ""
+"To make it easier for you to edit and save the imported content, you may "
+"want to reassign the author of the imported item to an existing user of this "
+"site. For example, you may want to import all the entries as <code>admin</"
+"code>s entries."
+msgstr ""
+
+#: ../importer/wordpress-importer.php:269
+#, php-format
+msgid ""
+"If a new user is created by WordPress, a new password will be randomly "
+"generated and the new user&#8217;s role will be set as %s. Manually changing "
+"the new user&#8217;s details will be necessary."
+msgstr ""
+
+#: ../importer/wordpress-importer.php:279
+msgid "Import Attachments"
+msgstr ""
+
+#: ../importer/wordpress-importer.php:282
+msgid "Download and import file attachments"
+msgstr ""
+
+#: ../importer/wordpress-importer.php:286
+msgid "Submit"
+msgstr ""
+
+#: ../importer/wordpress-importer.php:299
+msgid "Import author:"
+msgstr ""
+
+#: ../importer/wordpress-importer.php:310
+msgid "or create new user with login name:"
+msgstr ""
+
+#: ../importer/wordpress-importer.php:313
+msgid "as a new user:"
+msgstr ""
+
+#: ../importer/wordpress-importer.php:321
+msgid "assign posts to an existing user:"
+msgstr ""
+
+#: ../importer/wordpress-importer.php:323
+msgid "or assign posts to an existing user:"
+msgstr ""
+
+#: ../importer/wordpress-importer.php:324
+msgid "- Select -"
+msgstr ""
+
+#: ../importer/wordpress-importer.php:374
+#, php-format
+msgid ""
+"Failed to create new user for %s. Their posts will be attributed to the "
+"current user."
+msgstr ""
+
+#: ../importer/wordpress-importer.php:423
+#, php-format
+msgid "Failed to import category %s"
+msgstr ""
+
+#: ../importer/wordpress-importer.php:461
+#, php-format
+msgid "Failed to import post tag %s"
+msgstr ""
+
+#: ../importer/wordpress-importer.php:505
+#: ../importer/wordpress-importer.php:631
+#, php-format
+msgid "Failed to import %s %s"
+msgstr ""
+
+#: ../importer/wordpress-importer.php:527
+#, php-format
+msgid "Failed to import &#8220;%s&#8221;: Invalid post type %s"
+msgstr ""
+
+#: ../importer/wordpress-importer.php:548
+#, php-format
+msgid "%s &#8220;%s&#8221; already exists."
+msgstr ""
+
+#: ../importer/wordpress-importer.php:603
+#, php-format
+msgid "Failed to import %s &#8220;%s&#8221;"
+msgstr ""
+
+#: ../importer/wordpress-importer.php:749
+msgid "Menu item skipped due to missing menu slug"
+msgstr ""
+
+#: ../importer/wordpress-importer.php:756
+#, php-format
+msgid "Menu item skipped due to invalid menu slug: %s"
+msgstr ""
+
+#: ../importer/wordpress-importer.php:830
+msgid "Fetching attachments is not enabled"
+msgstr ""
+
+#: ../importer/wordpress-importer.php:843
+msgid "Invalid file type"
+msgstr ""
+
+#: ../importer/wordpress-importer.php:901
+#, php-format
+msgid "Remote server returned %1$d %2$s for %3$s"
+msgstr ""
+
+#: ../importer/wordpress-importer.php:914
+msgid "Remote file is incorrect size"
+msgstr ""
+
+#: ../importer/wordpress-importer.php:919
+msgid "Zero size file downloaded"
+msgstr ""
+
+#: ../importer/wordpress-importer.php:925
+#, php-format
+msgid "Remote file is too large, limit is %s"
+msgstr ""
+
+#: ../importer/wordpress-importer.php:1024
+msgid "Import WordPress"
+msgstr ""
+
+#: ../importer/wordpress-importer.php:1031
+#, php-format
+msgid ""
+"A new version of this importer is available. Please update to version %s to "
+"ensure compatibility with newer export files."
+msgstr ""
+
+#: ../importer/wordpress-importer.php:1046
+msgid ""
+"Howdy! Upload your WordPress eXtended RSS (WXR) file and we&#8217;ll import "
+"the posts, pages, comments, custom fields, categories, and tags into this "
+"site."
+msgstr ""
+
+#: ../importer/wordpress-importer.php:1047
+msgid "Choose a WXR (.xml) file to upload, then click Upload file and import."
+msgstr ""
+
+#: ../inc/hub-tax.php:25 ../inc/hub-tax.php:34
+#: ../shortcodes/theme-shortcodes.php:578
+#: ../shortcodes/theme-shortcodes.php:785
+#: ../shortcodes/theme-shortcodes.php:1824
+msgid "Hub Categories"
+msgstr ""
+
+#: ../inc/hub-tax.php:26
+msgid "Hub Category"
+msgstr ""
+
+#: ../inc/hub-tax.php:27
+msgid "All Hub Categories"
+msgstr ""
+
+#: ../inc/hub-tax.php:28 ../inc/hub-tax.php:74 ../inc/hub-tax.php:75
+msgctxt "hub"
+msgid "Add New"
+msgstr ""
+
+#: ../inc/hub-tax.php:29
+msgid "Add New Hub Category"
+msgstr ""
+
+#: ../inc/hub-tax.php:30
+msgid "Edit Hub Category"
+msgstr ""
+
+#: ../inc/hub-tax.php:31
+msgid "New Hub Category"
+msgstr ""
+
+#: ../inc/hub-tax.php:32
+msgid "View Hub Category"
+msgstr ""
+
+#: ../inc/hub-tax.php:33
+msgid "Search Hub Categories"
+msgstr ""
+
+#: ../inc/hub-tax.php:73
+msgid "All "
+msgstr ""
+
+#: ../inc/hub-tax.php:76
+msgid "Add New "
+msgstr ""
+
+#: ../inc/hub-tax.php:77
+msgid "Edit "
+msgstr ""
+
+#: ../inc/hub-tax.php:78
+msgid "New "
+msgstr ""
+
+#: ../inc/hub-tax.php:79
+msgid "View "
+msgstr ""
+
+#: ../inc/hub-tax.php:80
+msgid "Search "
+msgstr ""
+
+#: ../inc/portfolio-tax.php:32 ../inc/portfolio-tax.php:34
+msgid "Portfolio Items"
+msgstr ""
+
+#: ../inc/portfolio-tax.php:33
+msgid "Portfolio Item"
+msgstr ""
+
+#: ../inc/portfolio-tax.php:35
+msgid "All Portfolio Items"
+msgstr ""
+
+#: ../inc/portfolio-tax.php:36 ../inc/portfolio-tax.php:72
+#: ../inc/slide-tax.php:24 ../inc/slide-tax.php:59
+#: ../inc/user-review-tax.php:25
+msgctxt "portfolio"
+msgid "Add New"
+msgstr ""
+
+#: ../inc/portfolio-tax.php:37
+msgid "Add New Portfolio Item"
+msgstr ""
+
+#: ../inc/portfolio-tax.php:38
+msgid "Edit Portfolio Item"
+msgstr ""
+
+#: ../inc/portfolio-tax.php:39
+msgid "New Portfolio Item"
+msgstr ""
+
+#: ../inc/portfolio-tax.php:40
+msgid "View Portfolio Item"
+msgstr ""
+
+#: ../inc/portfolio-tax.php:41
+msgid "Search Portfolio Items"
+msgstr ""
+
+#: ../inc/portfolio-tax.php:42
+msgid "No portfolio items found"
+msgstr ""
+
+#: ../inc/portfolio-tax.php:43
+msgid "No portfolio items found in Trash"
+msgstr ""
+
+#: ../inc/portfolio-tax.php:69 ../inc/portfolio-tax.php:78
+msgid "Portfolio Categories"
+msgstr ""
+
+#: ../inc/portfolio-tax.php:70
+msgid "Portfolio Category"
+msgstr ""
+
+#: ../inc/portfolio-tax.php:71
+msgid "All Portfolio Categories"
+msgstr ""
+
+#: ../inc/portfolio-tax.php:73
+msgid "Add New Portfolio Category"
+msgstr ""
+
+#: ../inc/portfolio-tax.php:74
+msgid "Edit Portfolio Category"
+msgstr ""
+
+#: ../inc/portfolio-tax.php:75
+msgid "New Portfolio Category"
+msgstr ""
+
+#: ../inc/portfolio-tax.php:76
+msgid "View Portfolio Category"
+msgstr ""
+
+#: ../inc/portfolio-tax.php:77
+msgid "Search Portfolio Categories"
+msgstr ""
+
+#: ../inc/portfolio-tax.php:97 ../inc/slide-tax.php:85
+#: ../inc/user-review-tax.php:57 ../shortcodes/theme-shortcodes.php:245
+#: ../shortcodes/theme-shortcodes.php:289
+#: ../shortcodes/theme-shortcodes.php:405
+#: ../shortcodes/theme-shortcodes.php:667
+#: ../shortcodes/theme-shortcodes.php:867
+#: ../shortcodes/theme-shortcodes.php:970
+#: ../shortcodes/theme-shortcodes.php:1063
+#: ../shortcodes/theme-shortcodes.php:1161
+#: ../shortcodes/theme-shortcodes.php:1368
+#: ../shortcodes/theme-shortcodes.php:1669
+#: ../shortcodes/theme-shortcodes.php:2090
+#: ../shortcodes/theme-shortcodes.php:2188
+msgid "Title"
+msgstr ""
+
+#: ../inc/portfolio-tax.php:98 ../inc/slide-tax.php:86
+#: ../shortcodes/gp_vc_filters.php:14 ../shortcodes/theme-shortcodes.php:297
+#: ../shortcodes/theme-shortcodes.php:393
+#: ../shortcodes/theme-shortcodes.php:924
+#: ../shortcodes/theme-shortcodes.php:1071
+#: ../shortcodes/theme-shortcodes.php:1149
+#: ../shortcodes/theme-shortcodes.php:1383
+#: ../shortcodes/theme-shortcodes.php:1688
+#: ../shortcodes/theme-shortcodes.php:2098
+#: ../shortcodes/theme-shortcodes.php:2176
+msgid "Categories"
+msgstr ""
+
+#: ../inc/portfolio-tax.php:99 ../inc/slide-tax.php:87
+#: ../shortcodes/theme-shortcodes.php:1898
+#: ../shortcodes/theme-shortcodes.php:2015
+msgid "Image"
+msgstr ""
+
+#: ../inc/portfolio-tax.php:100 ../inc/slide-tax.php:88
+#: ../inc/user-review-tax.php:61 ../shortcodes/theme-shortcodes.php:399
+#: ../shortcodes/theme-shortcodes.php:1155
+#: ../shortcodes/theme-shortcodes.php:2182
+msgid "Date"
+msgstr ""
+
+#: ../inc/slide-tax.php:20 ../inc/slide-tax.php:22
+msgid "Slides"
+msgstr ""
+
+#: ../inc/slide-tax.php:21 ../shortcodes/theme-shortcodes.php:1978
+msgid "Slide"
+msgstr ""
+
+#: ../inc/slide-tax.php:23
+msgid "All Slides"
+msgstr ""
+
+#: ../inc/slide-tax.php:25
+msgid "Add New Slide"
+msgstr ""
+
+#: ../inc/slide-tax.php:26
+msgid "Edit Slide"
+msgstr ""
+
+#: ../inc/slide-tax.php:27
+msgid "New Slide"
+msgstr ""
+
+#: ../inc/slide-tax.php:28
+msgid "View Slide"
+msgstr ""
+
+#: ../inc/slide-tax.php:29
+msgid "Search Slides"
+msgstr ""
+
+#: ../inc/slide-tax.php:30
+msgid "No slides found"
+msgstr ""
+
+#: ../inc/slide-tax.php:31
+msgid "No slides found in Trash"
+msgstr ""
+
+#: ../inc/slide-tax.php:56 ../inc/slide-tax.php:65
+msgid "Slide Categories"
+msgstr ""
+
+#: ../inc/slide-tax.php:57
+msgid "Slide Category"
+msgstr ""
+
+#: ../inc/slide-tax.php:58
+msgid "All Slide Categories"
+msgstr ""
+
+#: ../inc/slide-tax.php:60
+msgid "Add New Slide Category"
+msgstr ""
+
+#: ../inc/slide-tax.php:61
+msgid "Edit Slide Category"
+msgstr ""
+
+#: ../inc/slide-tax.php:62
+msgid "New Slide Category"
+msgstr ""
+
+#: ../inc/slide-tax.php:63
+msgid "View Slide Category"
+msgstr ""
+
+#: ../inc/slide-tax.php:64
+msgid "Search Slide Categories"
+msgstr ""
+
+#: ../inc/user-review-tax.php:21 ../inc/user-review-tax.php:23
+msgid "User Reviews"
+msgstr ""
+
+#: ../inc/user-review-tax.php:22
+msgid "User Review"
+msgstr ""
+
+#: ../inc/user-review-tax.php:24
+msgid "All User Reviews"
+msgstr ""
+
+#: ../inc/user-review-tax.php:26
+msgid "Add New User Review"
+msgstr ""
+
+#: ../inc/user-review-tax.php:27
+msgid "Edit User Review"
+msgstr ""
+
+#: ../inc/user-review-tax.php:28
+msgid "New User Review"
+msgstr ""
+
+#: ../inc/user-review-tax.php:29
+msgid "View User Review"
+msgstr ""
+
+#: ../inc/user-review-tax.php:30
+msgid "Search User Reviews"
+msgstr ""
+
+#: ../inc/user-review-tax.php:31
+msgid "No user reviews found"
+msgstr ""
+
+#: ../inc/user-review-tax.php:32
+msgid "No user reviews found in Trash"
+msgstr ""
+
+#: ../inc/user-review-tax.php:58
+msgid "Hub Page"
+msgstr ""
+
+#: ../inc/user-review-tax.php:60
+msgid "Author"
+msgstr ""
+
+#: ../inc/video-tax.php:25 ../inc/video-tax.php:34
+msgid "Video Categories"
+msgstr ""
+
+#: ../inc/video-tax.php:26
+msgid "Video Category"
+msgstr ""
+
+#: ../inc/video-tax.php:27
+msgid "All Video Categories"
+msgstr ""
+
+#: ../inc/video-tax.php:28
+msgctxt "video"
+msgid "Add New"
+msgstr ""
+
+#: ../inc/video-tax.php:29
+msgid "Add New Video Category"
+msgstr ""
+
+#: ../inc/video-tax.php:30
+msgid "Edit Video Category"
+msgstr ""
+
+#: ../inc/video-tax.php:31
+msgid "New Video Category"
+msgstr ""
+
+#: ../inc/video-tax.php:32
+msgid "View Video Category"
+msgstr ""
+
+#: ../inc/video-tax.php:33
+msgid "Search Video Categories"
+msgstr ""
+
+#: ../index.php:56
+msgid "Twitter URL"
+msgstr ""
+
+#: ../index.php:57
+msgid "Facebook URL"
+msgstr ""
+
+#: ../index.php:58
+msgid "Google+ URL"
+msgstr ""
+
+#: ../index.php:59
+msgid "Pinterest URL"
+msgstr ""
+
+#: ../index.php:60
+msgid "YouTube URL"
+msgstr ""
+
+#: ../index.php:61
+msgid "Vimeo URL"
+msgstr ""
+
+#: ../index.php:62
+msgid "Flickr URL"
+msgstr ""
+
+#: ../index.php:63
+msgid "LinkedIn URL"
+msgstr ""
+
+#: ../index.php:64
+msgid "Instagram URL"
+msgstr ""
+
+#: ../index.php:148
+#, php-format
+msgid "New user registration on your blog %s:"
+msgstr ""
+
+#: ../index.php:149 ../index.php:161
+#, php-format
+msgid "Username: %s"
+msgstr ""
+
+#: ../index.php:150
+#, php-format
+msgid "Email: %s"
+msgstr ""
+
+#: ../index.php:152
+#, php-format
+msgid "[%s] New User Registration"
+msgstr ""
+
+#: ../index.php:159
+msgid "Hi there,"
+msgstr ""
+
+#: ../index.php:160
+#, php-format
+msgid "Welcome to %s."
+msgstr ""
+
+#: ../index.php:162
+msgid "Password: [use the password you entered when signing up]"
+msgstr ""
+
+#: ../index.php:163
+msgid "Please login at"
+msgstr ""
+
+#: ../index.php:165
+#, php-format
+msgid "[%s] Your username and password"
+msgstr ""
+
+#: ../shortcodes/gp_vc_blog.php:57 ../shortcodes/gp_vc_portfolio.php:20
+#: ../shortcodes/theme-shortcodes.php:637
+#: ../shortcodes/theme-shortcodes.php:1478
+msgid "See All Items"
+msgstr ""
+
+#: ../shortcodes/gp_vc_blog.php:179 ../shortcodes/gp_vc_featured.php:93
+#: ../shortcodes/gp_vc_images.php:104 ../shortcodes/gp_vc_news.php:141
+#: ../shortcodes/gp_vc_portfolio.php:107 ../shortcodes/gp_vc_ranking.php:302
+#: ../shortcodes/gp_vc_videos.php:140
+msgid "No items found."
+msgstr ""
+
+#: ../shortcodes/gp_vc_filters.php:15 ../shortcodes/theme-shortcodes.php:910
+msgid "Release Date"
+msgstr ""
+
+#: ../shortcodes/gp_vc_filters.php:16 ../shortcodes/theme-shortcodes.php:917
+msgid "Last Updated"
+msgstr ""
+
+#: ../shortcodes/gp_vc_filters.php:17 ../shortcodes/theme-shortcodes.php:931
+msgid "Filter Items"
+msgstr ""
+
+#: ../shortcodes/gp_vc_filters.php:89 ../shortcodes/gp_vc_filters.php:102
+#: ../shortcodes/theme-shortcodes.php:362
+#: ../shortcodes/theme-shortcodes.php:375
+#: ../shortcodes/theme-shortcodes.php:1118
+#: ../shortcodes/theme-shortcodes.php:1131
+#: ../shortcodes/theme-shortcodes.php:1410
+#: ../shortcodes/theme-shortcodes.php:1423
+#: ../shortcodes/theme-shortcodes.php:1725
+#: ../shortcodes/theme-shortcodes.php:1738
+#: ../shortcodes/theme-shortcodes.php:2145
+#: ../shortcodes/theme-shortcodes.php:2158
+msgid "Any date"
+msgstr ""
+
+#: ../shortcodes/gp_vc_filters.php:90 ../shortcodes/gp_vc_filters.php:103
+#: ../shortcodes/theme-shortcodes.php:363
+#: ../shortcodes/theme-shortcodes.php:376
+#: ../shortcodes/theme-shortcodes.php:1119
+#: ../shortcodes/theme-shortcodes.php:1132
+#: ../shortcodes/theme-shortcodes.php:1411
+#: ../shortcodes/theme-shortcodes.php:1424
+#: ../shortcodes/theme-shortcodes.php:1726
+#: ../shortcodes/theme-shortcodes.php:1739
+#: ../shortcodes/theme-shortcodes.php:2146
+#: ../shortcodes/theme-shortcodes.php:2159
+msgid "In the last year"
+msgstr ""
+
+#: ../shortcodes/gp_vc_filters.php:91 ../shortcodes/gp_vc_filters.php:104
+#: ../shortcodes/theme-shortcodes.php:364
+#: ../shortcodes/theme-shortcodes.php:377
+#: ../shortcodes/theme-shortcodes.php:1120
+#: ../shortcodes/theme-shortcodes.php:1133
+#: ../shortcodes/theme-shortcodes.php:1412
+#: ../shortcodes/theme-shortcodes.php:1425
+#: ../shortcodes/theme-shortcodes.php:1727
+#: ../shortcodes/theme-shortcodes.php:1740
+#: ../shortcodes/theme-shortcodes.php:2147
+#: ../shortcodes/theme-shortcodes.php:2160
+msgid "In the last month"
+msgstr ""
+
+#: ../shortcodes/gp_vc_filters.php:92 ../shortcodes/gp_vc_filters.php:105
+#: ../shortcodes/theme-shortcodes.php:365
+#: ../shortcodes/theme-shortcodes.php:378
+#: ../shortcodes/theme-shortcodes.php:1121
+#: ../shortcodes/theme-shortcodes.php:1134
+#: ../shortcodes/theme-shortcodes.php:1413
+#: ../shortcodes/theme-shortcodes.php:1426
+#: ../shortcodes/theme-shortcodes.php:1728
+#: ../shortcodes/theme-shortcodes.php:1741
+#: ../shortcodes/theme-shortcodes.php:2148
+#: ../shortcodes/theme-shortcodes.php:2161
+msgid "In the last week"
+msgstr ""
+
+#: ../shortcodes/gp_vc_filters.php:93 ../shortcodes/gp_vc_filters.php:106
+#: ../shortcodes/theme-shortcodes.php:366
+#: ../shortcodes/theme-shortcodes.php:379
+#: ../shortcodes/theme-shortcodes.php:1122
+#: ../shortcodes/theme-shortcodes.php:1135
+#: ../shortcodes/theme-shortcodes.php:1414
+#: ../shortcodes/theme-shortcodes.php:1427
+#: ../shortcodes/theme-shortcodes.php:1729
+#: ../shortcodes/theme-shortcodes.php:1742
+#: ../shortcodes/theme-shortcodes.php:2149
+#: ../shortcodes/theme-shortcodes.php:2162
+msgid "In the last day"
+msgstr ""
+
+#: ../shortcodes/gp_vc_filters.php:115 ../shortcodes/gp_vc_filters.php:134
+#: ../shortcodes/gp_vc_filters.php:167 ../shortcodes/gp_vc_portfolio.php:65
+msgid "All"
+msgstr ""
+
+#: ../shortcodes/gp_vc_images.php:16 ../shortcodes/theme-shortcodes.php:1032
+msgid "See All Images"
+msgstr ""
+
+#: ../shortcodes/gp_vc_news.php:45 ../shortcodes/theme-shortcodes.php:1337
+msgid "See All News"
+msgstr ""
+
+#: ../shortcodes/gp_vc_videos.php:45 ../shortcodes/theme-shortcodes.php:2364
+msgid "See All Videos"
+msgstr ""
+
+#: ../shortcodes/pricing_column.php:4
+msgid "Column title"
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:235
+msgid "Advertisement"
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:238
+msgid "Insert an advertisement anywhere you can insert this element."
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:242
+#: ../shortcodes/theme-shortcodes.php:283
+#: ../shortcodes/theme-shortcodes.php:664
+#: ../shortcodes/theme-shortcodes.php:864
+#: ../shortcodes/theme-shortcodes.php:967
+#: ../shortcodes/theme-shortcodes.php:1059
+#: ../shortcodes/theme-shortcodes.php:1364
+#: ../shortcodes/theme-shortcodes.php:1504
+#: ../shortcodes/theme-shortcodes.php:1569
+#: ../shortcodes/theme-shortcodes.php:1666
+#: ../shortcodes/theme-shortcodes.php:1869
+#: ../shortcodes/theme-shortcodes.php:1972
+#: ../shortcodes/theme-shortcodes.php:2068
+#: ../shortcodes/theme-shortcodes.php:2086
+msgid "Content"
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:246
+#: ../shortcodes/theme-shortcodes.php:290
+#: ../shortcodes/theme-shortcodes.php:868
+#: ../shortcodes/theme-shortcodes.php:971
+#: ../shortcodes/theme-shortcodes.php:1064
+#: ../shortcodes/theme-shortcodes.php:1369
+#: ../shortcodes/theme-shortcodes.php:1670
+#: ../shortcodes/theme-shortcodes.php:2091
+msgid "The title at the top of the element."
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:253
+msgid "Advertisement Code"
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:254
+msgid "The advertisement code."
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:260
+#: ../shortcodes/theme-shortcodes.php:641
+#: ../shortcodes/theme-shortcodes.php:819
+#: ../shortcodes/theme-shortcodes.php:1036
+#: ../shortcodes/theme-shortcodes.php:1341
+#: ../shortcodes/theme-shortcodes.php:1482
+#: ../shortcodes/theme-shortcodes.php:1508
+#: ../shortcodes/theme-shortcodes.php:1846
+#: ../shortcodes/theme-shortcodes.php:1880
+#: ../shortcodes/theme-shortcodes.php:1997
+#: ../shortcodes/theme-shortcodes.php:2368
+msgid "Extra Class Names"
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:261
+#: ../shortcodes/theme-shortcodes.php:642
+#: ../shortcodes/theme-shortcodes.php:822
+#: ../shortcodes/theme-shortcodes.php:1037
+#: ../shortcodes/theme-shortcodes.php:1344
+#: ../shortcodes/theme-shortcodes.php:1483
+#: ../shortcodes/theme-shortcodes.php:1511
+#: ../shortcodes/theme-shortcodes.php:1849
+#: ../shortcodes/theme-shortcodes.php:1881
+#: ../shortcodes/theme-shortcodes.php:1998
+#: ../shortcodes/theme-shortcodes.php:2369
+msgid ""
+"If you wish to style this particular content element differently, then use "
+"this field to add a class name and then refer to it in your css file."
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:277
+msgid "Blog"
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:279
+msgid "Display posts, pages and custom post types in a variety of ways."
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:298
+#: ../shortcodes/theme-shortcodes.php:1072
+#: ../shortcodes/theme-shortcodes.php:1384
+#: ../shortcodes/theme-shortcodes.php:1689
+#: ../shortcodes/theme-shortcodes.php:2099
+msgid ""
+"Enter the slugs or IDs separating each one with a comma e.g. xbox,ps3,pc."
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:303
+#: ../shortcodes/theme-shortcodes.php:583
+#: ../shortcodes/theme-shortcodes.php:790
+#: ../shortcodes/theme-shortcodes.php:901
+#: ../shortcodes/theme-shortcodes.php:1694
+#: ../shortcodes/theme-shortcodes.php:1830
+msgid "Hub Fields"
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:304
+msgid ""
+"Enter the hub fields you want to filter by. Add your taxonomy slug followed "
+"by a colon. Next enter your terms separating each by a colon also. Next add "
+"a comma and then enter the next taxonomy and so on e.g. <code>taxonomy-1:"
+"term-1:term-2,taxonomy-2:term-1,taxonomy-3:term-1:term-2</code>, this would "
+"translate to <code>genre:action:role-playing,publisher:namco,developed-by:"
+"namco:bluepoint-games</code>"
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:310
+#: ../shortcodes/theme-shortcodes.php:1077
+#: ../shortcodes/theme-shortcodes.php:2104
+msgid "Post Association"
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:311
+#: ../shortcodes/theme-shortcodes.php:1078
+#: ../shortcodes/theme-shortcodes.php:2105
+msgid "Only show posts associated with the parent hub page."
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:313
+#: ../shortcodes/theme-shortcodes.php:387
+#: ../shortcodes/theme-shortcodes.php:483
+#: ../shortcodes/theme-shortcodes.php:506
+#: ../shortcodes/theme-shortcodes.php:608
+#: ../shortcodes/theme-shortcodes.php:615
+#: ../shortcodes/theme-shortcodes.php:622
+#: ../shortcodes/theme-shortcodes.php:690
+#: ../shortcodes/theme-shortcodes.php:713
+#: ../shortcodes/theme-shortcodes.php:815
+#: ../shortcodes/theme-shortcodes.php:843
+#: ../shortcodes/theme-shortcodes.php:889
+#: ../shortcodes/theme-shortcodes.php:896
+#: ../shortcodes/theme-shortcodes.php:1009
+#: ../shortcodes/theme-shortcodes.php:1017
+#: ../shortcodes/theme-shortcodes.php:1080
+#: ../shortcodes/theme-shortcodes.php:1143
+#: ../shortcodes/theme-shortcodes.php:1215
+#: ../shortcodes/theme-shortcodes.php:1238
+#: ../shortcodes/theme-shortcodes.php:1308
+#: ../shortcodes/theme-shortcodes.php:1315
+#: ../shortcodes/theme-shortcodes.php:1322
+#: ../shortcodes/theme-shortcodes.php:1435
+#: ../shortcodes/theme-shortcodes.php:1456
+#: ../shortcodes/theme-shortcodes.php:1463
+#: ../shortcodes/theme-shortcodes.php:1557
+#: ../shortcodes/theme-shortcodes.php:1625
+#: ../shortcodes/theme-shortcodes.php:1764
+#: ../shortcodes/theme-shortcodes.php:1817
+#: ../shortcodes/theme-shortcodes.php:2107
+#: ../shortcodes/theme-shortcodes.php:2170
+#: ../shortcodes/theme-shortcodes.php:2242
+#: ../shortcodes/theme-shortcodes.php:2265
+#: ../shortcodes/theme-shortcodes.php:2335
+#: ../shortcodes/theme-shortcodes.php:2342
+#: ../shortcodes/theme-shortcodes.php:2349
+msgid "Enabled"
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:313
+#: ../shortcodes/theme-shortcodes.php:387
+#: ../shortcodes/theme-shortcodes.php:483
+#: ../shortcodes/theme-shortcodes.php:506
+#: ../shortcodes/theme-shortcodes.php:608
+#: ../shortcodes/theme-shortcodes.php:615
+#: ../shortcodes/theme-shortcodes.php:622
+#: ../shortcodes/theme-shortcodes.php:690
+#: ../shortcodes/theme-shortcodes.php:713
+#: ../shortcodes/theme-shortcodes.php:815
+#: ../shortcodes/theme-shortcodes.php:843
+#: ../shortcodes/theme-shortcodes.php:889
+#: ../shortcodes/theme-shortcodes.php:896
+#: ../shortcodes/theme-shortcodes.php:1009
+#: ../shortcodes/theme-shortcodes.php:1017
+#: ../shortcodes/theme-shortcodes.php:1080
+#: ../shortcodes/theme-shortcodes.php:1143
+#: ../shortcodes/theme-shortcodes.php:1215
+#: ../shortcodes/theme-shortcodes.php:1238
+#: ../shortcodes/theme-shortcodes.php:1308
+#: ../shortcodes/theme-shortcodes.php:1315
+#: ../shortcodes/theme-shortcodes.php:1322
+#: ../shortcodes/theme-shortcodes.php:1435
+#: ../shortcodes/theme-shortcodes.php:1456
+#: ../shortcodes/theme-shortcodes.php:1463
+#: ../shortcodes/theme-shortcodes.php:1557
+#: ../shortcodes/theme-shortcodes.php:1625
+#: ../shortcodes/theme-shortcodes.php:1764
+#: ../shortcodes/theme-shortcodes.php:1817
+#: ../shortcodes/theme-shortcodes.php:2107
+#: ../shortcodes/theme-shortcodes.php:2170
+#: ../shortcodes/theme-shortcodes.php:2242
+#: ../shortcodes/theme-shortcodes.php:2265
+#: ../shortcodes/theme-shortcodes.php:2335
+#: ../shortcodes/theme-shortcodes.php:2342
+#: ../shortcodes/theme-shortcodes.php:2349
+msgid "Disabled"
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:317
+msgid "Post Types"
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:318
+msgid "The post types to display."
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:324
+#: ../shortcodes/theme-shortcodes.php:1084
+#: ../shortcodes/theme-shortcodes.php:1376
+#: ../shortcodes/theme-shortcodes.php:2111
+msgid "Format"
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:325
+#: ../shortcodes/theme-shortcodes.php:1085
+#: ../shortcodes/theme-shortcodes.php:1377
+#: ../shortcodes/theme-shortcodes.php:2112
+msgid "The format to display the items in."
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:327
+#: ../shortcodes/theme-shortcodes.php:334
+#: ../shortcodes/theme-shortcodes.php:1087
+#: ../shortcodes/theme-shortcodes.php:1094
+#: ../shortcodes/theme-shortcodes.php:2114
+#: ../shortcodes/theme-shortcodes.php:2121
+msgid "Standard"
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:327
+#: ../shortcodes/theme-shortcodes.php:1087
+#: ../shortcodes/theme-shortcodes.php:2114
+msgid "Large"
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:327
+#: ../shortcodes/theme-shortcodes.php:1087
+#: ../shortcodes/theme-shortcodes.php:2114
+msgid "1 Column"
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:327
+#: ../shortcodes/theme-shortcodes.php:1087
+#: ../shortcodes/theme-shortcodes.php:1379
+#: ../shortcodes/theme-shortcodes.php:2114
+msgid "2 Columns"
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:327
+#: ../shortcodes/theme-shortcodes.php:1087
+#: ../shortcodes/theme-shortcodes.php:1379
+#: ../shortcodes/theme-shortcodes.php:2114
+msgid "3 Columns"
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:327
+#: ../shortcodes/theme-shortcodes.php:1087
+#: ../shortcodes/theme-shortcodes.php:1379
+#: ../shortcodes/theme-shortcodes.php:2114
+msgid "4 Columns"
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:327
+#: ../shortcodes/theme-shortcodes.php:1087
+#: ../shortcodes/theme-shortcodes.php:1379
+#: ../shortcodes/theme-shortcodes.php:2114
+msgid "5 Columns"
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:327
+#: ../shortcodes/theme-shortcodes.php:1087
+#: ../shortcodes/theme-shortcodes.php:1379
+#: ../shortcodes/theme-shortcodes.php:2114
+msgid "6 Columns"
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:327
+#: ../shortcodes/theme-shortcodes.php:1087
+#: ../shortcodes/theme-shortcodes.php:1379
+#: ../shortcodes/theme-shortcodes.php:2114
+msgid "Masonry"
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:331
+#: ../shortcodes/theme-shortcodes.php:1091
+#: ../shortcodes/theme-shortcodes.php:2118
+msgid "Size"
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:332
+#: ../shortcodes/theme-shortcodes.php:1092
+#: ../shortcodes/theme-shortcodes.php:2119
+msgid "The size to display the items at."
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:334
+#: ../shortcodes/theme-shortcodes.php:1094
+#: ../shortcodes/theme-shortcodes.php:2121
+msgid "Small"
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:338
+#: ../shortcodes/theme-shortcodes.php:1098
+#: ../shortcodes/theme-shortcodes.php:1390
+#: ../shortcodes/theme-shortcodes.php:1701
+#: ../shortcodes/theme-shortcodes.php:2125
+msgid "Order By"
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:339
+#: ../shortcodes/theme-shortcodes.php:1099
+#: ../shortcodes/theme-shortcodes.php:1391
+#: ../shortcodes/theme-shortcodes.php:1702
+#: ../shortcodes/theme-shortcodes.php:2126
+msgid "The criteria which the items are ordered by."
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:342
+#: ../shortcodes/theme-shortcodes.php:1102
+#: ../shortcodes/theme-shortcodes.php:1394
+#: ../shortcodes/theme-shortcodes.php:1706
+#: ../shortcodes/theme-shortcodes.php:2129
+msgid "Newest"
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:343
+#: ../shortcodes/theme-shortcodes.php:1103
+#: ../shortcodes/theme-shortcodes.php:1395
+#: ../shortcodes/theme-shortcodes.php:1707
+#: ../shortcodes/theme-shortcodes.php:2130
+msgid "Oldest"
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:344
+#: ../shortcodes/theme-shortcodes.php:1104
+#: ../shortcodes/theme-shortcodes.php:1396
+#: ../shortcodes/theme-shortcodes.php:1708
+#: ../shortcodes/theme-shortcodes.php:2131
+msgid "Title (A-Z)"
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:345
+#: ../shortcodes/theme-shortcodes.php:1105
+#: ../shortcodes/theme-shortcodes.php:1397
+#: ../shortcodes/theme-shortcodes.php:1709
+#: ../shortcodes/theme-shortcodes.php:2132
+msgid "Title (Z-A)"
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:346
+#: ../shortcodes/theme-shortcodes.php:1106
+#: ../shortcodes/theme-shortcodes.php:1398
+#: ../shortcodes/theme-shortcodes.php:1710
+#: ../shortcodes/theme-shortcodes.php:2133
+msgid "Most Comments"
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:347
+#: ../shortcodes/theme-shortcodes.php:1107
+#: ../shortcodes/theme-shortcodes.php:1399
+#: ../shortcodes/theme-shortcodes.php:1711
+#: ../shortcodes/theme-shortcodes.php:2134
+msgid "Most Views"
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:348
+#: ../shortcodes/theme-shortcodes.php:1712
+msgid "Most Followers"
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:349
+#: ../shortcodes/theme-shortcodes.php:1705
+msgid "Top Site Rated"
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:350
+#: ../shortcodes/theme-shortcodes.php:1713
+msgid "Top User Rated"
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:351
+#: ../shortcodes/theme-shortcodes.php:441
+#: ../shortcodes/theme-shortcodes.php:1714
+msgid "Hub Awards"
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:352
+#: ../shortcodes/theme-shortcodes.php:1108
+#: ../shortcodes/theme-shortcodes.php:1400
+#: ../shortcodes/theme-shortcodes.php:1715
+#: ../shortcodes/theme-shortcodes.php:2135
+msgid "Menu Order"
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:353
+#: ../shortcodes/theme-shortcodes.php:1109
+#: ../shortcodes/theme-shortcodes.php:1401
+#: ../shortcodes/theme-shortcodes.php:1716
+#: ../shortcodes/theme-shortcodes.php:2136
+msgid "Random"
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:358
+#: ../shortcodes/theme-shortcodes.php:447
+#: ../shortcodes/theme-shortcodes.php:887
+#: ../shortcodes/theme-shortcodes.php:1114
+#: ../shortcodes/theme-shortcodes.php:1179
+#: ../shortcodes/theme-shortcodes.php:1406
+#: ../shortcodes/theme-shortcodes.php:1721
+#: ../shortcodes/theme-shortcodes.php:2141
+#: ../shortcodes/theme-shortcodes.php:2206
+msgid "Date Posted"
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:359
+#: ../shortcodes/theme-shortcodes.php:1115
+#: ../shortcodes/theme-shortcodes.php:1407
+#: ../shortcodes/theme-shortcodes.php:1722
+#: ../shortcodes/theme-shortcodes.php:2142
+msgid "The date the items were posted."
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:371
+#: ../shortcodes/theme-shortcodes.php:454
+#: ../shortcodes/theme-shortcodes.php:894
+#: ../shortcodes/theme-shortcodes.php:1127
+#: ../shortcodes/theme-shortcodes.php:1186
+#: ../shortcodes/theme-shortcodes.php:1419
+#: ../shortcodes/theme-shortcodes.php:1734
+#: ../shortcodes/theme-shortcodes.php:2154
+#: ../shortcodes/theme-shortcodes.php:2213
+msgid "Date Modified"
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:372
+#: ../shortcodes/theme-shortcodes.php:1128
+#: ../shortcodes/theme-shortcodes.php:1420
+#: ../shortcodes/theme-shortcodes.php:1735
+#: ../shortcodes/theme-shortcodes.php:2155
+msgid "The date the items were modified."
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:384
+#: ../shortcodes/theme-shortcodes.php:1140
+#: ../shortcodes/theme-shortcodes.php:1432
+#: ../shortcodes/theme-shortcodes.php:2167
+msgid "Filter"
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:385
+#: ../shortcodes/theme-shortcodes.php:1141
+#: ../shortcodes/theme-shortcodes.php:2168
+msgid "Add a dropdown filter menu to the page."
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:391
+#: ../shortcodes/theme-shortcodes.php:1147
+#: ../shortcodes/theme-shortcodes.php:2174
+msgid "Filter Options"
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:411
+#: ../shortcodes/theme-shortcodes.php:553
+#: ../shortcodes/theme-shortcodes.php:770
+#: ../shortcodes/theme-shortcodes.php:1167
+#: ../shortcodes/theme-shortcodes.php:1290
+#: ../shortcodes/theme-shortcodes.php:2194
+#: ../shortcodes/theme-shortcodes.php:2317
+msgid "Comment Count"
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:417
+#: ../shortcodes/theme-shortcodes.php:558
+#: ../shortcodes/theme-shortcodes.php:760
+#: ../shortcodes/theme-shortcodes.php:1173
+#: ../shortcodes/theme-shortcodes.php:1285
+#: ../shortcodes/theme-shortcodes.php:2200
+#: ../shortcodes/theme-shortcodes.php:2312
+msgid "Views"
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:423
+#: ../shortcodes/theme-shortcodes.php:563
+#: ../shortcodes/theme-shortcodes.php:765
+msgid "Followers"
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:429
+#: ../shortcodes/theme-shortcodes.php:595
+#: ../shortcodes/theme-shortcodes.php:802
+#: ../shortcodes/theme-shortcodes.php:1836
+msgid "Site Rating"
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:435
+#: ../shortcodes/theme-shortcodes.php:601
+#: ../shortcodes/theme-shortcodes.php:808
+#: ../shortcodes/theme-shortcodes.php:1842
+msgid "User Rating"
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:452
+#: ../shortcodes/theme-shortcodes.php:1184
+#: ../shortcodes/theme-shortcodes.php:2211
+msgid "Choose what options to display in the dropdown filter menu."
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:459
+#: ../shortcodes/theme-shortcodes.php:1191
+#: ../shortcodes/theme-shortcodes.php:2218
+msgid "Filter Category"
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:460
+#: ../shortcodes/theme-shortcodes.php:1192
+#: ../shortcodes/theme-shortcodes.php:2219
+msgid ""
+"Enter the slug or ID number of the category you want to filter by, leave "
+"blank to display all categories - the sub categories of this category will "
+"also be displayed."
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:466
+#: ../shortcodes/theme-shortcodes.php:1198
+#: ../shortcodes/theme-shortcodes.php:1439
+#: ../shortcodes/theme-shortcodes.php:2225
+msgid "Items Per Page"
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:467
+#: ../shortcodes/theme-shortcodes.php:1199
+#: ../shortcodes/theme-shortcodes.php:1440
+#: ../shortcodes/theme-shortcodes.php:2226
+msgid "The number of items on each page."
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:473
+#: ../shortcodes/theme-shortcodes.php:1205
+#: ../shortcodes/theme-shortcodes.php:1446
+#: ../shortcodes/theme-shortcodes.php:1754
+#: ../shortcodes/theme-shortcodes.php:2232
+msgid "Offset"
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:474
+#: ../shortcodes/theme-shortcodes.php:1206
+#: ../shortcodes/theme-shortcodes.php:1447
+#: ../shortcodes/theme-shortcodes.php:1755
+#: ../shortcodes/theme-shortcodes.php:2233
+msgid ""
+"The number of posts to offset by e.g. set to 3 to exclude the first 3 posts."
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:480
+#: ../shortcodes/theme-shortcodes.php:687
+#: ../shortcodes/theme-shortcodes.php:1212
+#: ../shortcodes/theme-shortcodes.php:1761
+#: ../shortcodes/theme-shortcodes.php:2239
+msgid "Featured Image"
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:481
+#: ../shortcodes/theme-shortcodes.php:688
+#: ../shortcodes/theme-shortcodes.php:1213
+#: ../shortcodes/theme-shortcodes.php:1762
+#: ../shortcodes/theme-shortcodes.php:2240
+msgid "Display the featured images."
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:487
+#: ../shortcodes/theme-shortcodes.php:694
+#: ../shortcodes/theme-shortcodes.php:992
+#: ../shortcodes/theme-shortcodes.php:1219
+#: ../shortcodes/theme-shortcodes.php:1905
+#: ../shortcodes/theme-shortcodes.php:2022
+#: ../shortcodes/theme-shortcodes.php:2246
+msgid "Image Width"
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:488
+#: ../shortcodes/theme-shortcodes.php:695
+#: ../shortcodes/theme-shortcodes.php:1220
+#: ../shortcodes/theme-shortcodes.php:2247
+msgid "The width of the featured images."
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:495
+#: ../shortcodes/theme-shortcodes.php:702
+#: ../shortcodes/theme-shortcodes.php:999
+#: ../shortcodes/theme-shortcodes.php:1227
+#: ../shortcodes/theme-shortcodes.php:1912
+#: ../shortcodes/theme-shortcodes.php:2030
+#: ../shortcodes/theme-shortcodes.php:2254
+msgid "Image Height"
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:496
+#: ../shortcodes/theme-shortcodes.php:703
+#: ../shortcodes/theme-shortcodes.php:1228
+#: ../shortcodes/theme-shortcodes.php:2255
+msgid "The height of the featured images."
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:503
+#: ../shortcodes/theme-shortcodes.php:710
+#: ../shortcodes/theme-shortcodes.php:1006
+#: ../shortcodes/theme-shortcodes.php:1235
+#: ../shortcodes/theme-shortcodes.php:1814
+#: ../shortcodes/theme-shortcodes.php:2262
+msgid "Hard Crop"
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:504
+#: ../shortcodes/theme-shortcodes.php:711
+#: ../shortcodes/theme-shortcodes.php:1007
+#: ../shortcodes/theme-shortcodes.php:1236
+#: ../shortcodes/theme-shortcodes.php:1815
+#: ../shortcodes/theme-shortcodes.php:2263
+msgid ""
+"Images are cropped even if it is smaller than the dimensions you want to "
+"crop it to."
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:511
+#: ../shortcodes/theme-shortcodes.php:718
+#: ../shortcodes/theme-shortcodes.php:1243
+#: ../shortcodes/theme-shortcodes.php:2270
+msgid "Image Alignment"
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:512
+#: ../shortcodes/theme-shortcodes.php:719
+#: ../shortcodes/theme-shortcodes.php:1244
+#: ../shortcodes/theme-shortcodes.php:2271
+msgid "Choose how the image aligns with the content."
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:514
+#: ../shortcodes/theme-shortcodes.php:721
+#: ../shortcodes/theme-shortcodes.php:1246
+#: ../shortcodes/theme-shortcodes.php:2273
+msgid "Left Align"
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:514
+#: ../shortcodes/theme-shortcodes.php:721
+#: ../shortcodes/theme-shortcodes.php:1246
+#: ../shortcodes/theme-shortcodes.php:2273
+msgid "Right Align"
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:514
+#: ../shortcodes/theme-shortcodes.php:721
+#: ../shortcodes/theme-shortcodes.php:1246
+#: ../shortcodes/theme-shortcodes.php:2273
+msgid "Left Wrap"
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:514
+#: ../shortcodes/theme-shortcodes.php:721
+#: ../shortcodes/theme-shortcodes.php:1246
+#: ../shortcodes/theme-shortcodes.php:2273
+msgid "Right Wrap"
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:514
+#: ../shortcodes/theme-shortcodes.php:721
+#: ../shortcodes/theme-shortcodes.php:1246
+#: ../shortcodes/theme-shortcodes.php:2273
+msgid "Above Content"
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:519
+#: ../shortcodes/theme-shortcodes.php:726
+#: ../shortcodes/theme-shortcodes.php:1251
+#: ../shortcodes/theme-shortcodes.php:2278
+msgid "Title Position"
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:520
+#: ../shortcodes/theme-shortcodes.php:727
+#: ../shortcodes/theme-shortcodes.php:1252
+#: ../shortcodes/theme-shortcodes.php:2279
+msgid "The position of the title."
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:522
+#: ../shortcodes/theme-shortcodes.php:729
+#: ../shortcodes/theme-shortcodes.php:1254
+#: ../shortcodes/theme-shortcodes.php:2281
+msgid "Next To Thumbnail"
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:522
+#: ../shortcodes/theme-shortcodes.php:729
+#: ../shortcodes/theme-shortcodes.php:1254
+#: ../shortcodes/theme-shortcodes.php:2281
+msgid "Over Thumbnail"
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:526
+#: ../shortcodes/theme-shortcodes.php:733
+#: ../shortcodes/theme-shortcodes.php:1258
+#: ../shortcodes/theme-shortcodes.php:2285
+msgid "Content Display"
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:527
+#: ../shortcodes/theme-shortcodes.php:734
+#: ../shortcodes/theme-shortcodes.php:1259
+#: ../shortcodes/theme-shortcodes.php:2286
+msgid "The amount of content displayed."
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:529
+#: ../shortcodes/theme-shortcodes.php:736
+#: ../shortcodes/theme-shortcodes.php:1261
+#: ../shortcodes/theme-shortcodes.php:2288
+msgid "Excerpt"
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:529
+#: ../shortcodes/theme-shortcodes.php:736
+#: ../shortcodes/theme-shortcodes.php:1261
+#: ../shortcodes/theme-shortcodes.php:2288
+msgid "Full Content"
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:533
+#: ../shortcodes/theme-shortcodes.php:740
+#: ../shortcodes/theme-shortcodes.php:1265
+#: ../shortcodes/theme-shortcodes.php:2292
+msgid "Excerpt Length"
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:534
+#: ../shortcodes/theme-shortcodes.php:741
+#: ../shortcodes/theme-shortcodes.php:1266
+#: ../shortcodes/theme-shortcodes.php:2293
+msgid "The number of characters in excerpts."
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:541
+#: ../shortcodes/theme-shortcodes.php:748
+#: ../shortcodes/theme-shortcodes.php:1273
+#: ../shortcodes/theme-shortcodes.php:1822
+#: ../shortcodes/theme-shortcodes.php:2300
+msgid "Post Meta"
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:543
+#: ../shortcodes/theme-shortcodes.php:750
+#: ../shortcodes/theme-shortcodes.php:1275
+#: ../shortcodes/theme-shortcodes.php:2302
+msgid "Author Name"
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:548
+#: ../shortcodes/theme-shortcodes.php:755
+#: ../shortcodes/theme-shortcodes.php:1280
+#: ../shortcodes/theme-shortcodes.php:2307
+msgid "Post Date"
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:568
+#: ../shortcodes/theme-shortcodes.php:775
+#: ../shortcodes/theme-shortcodes.php:1295
+#: ../shortcodes/theme-shortcodes.php:2322
+msgid "Post Categories"
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:573
+#: ../shortcodes/theme-shortcodes.php:780
+#: ../shortcodes/theme-shortcodes.php:1301
+#: ../shortcodes/theme-shortcodes.php:2328
+msgid "Post Tags"
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:587
+#: ../shortcodes/theme-shortcodes.php:794
+#: ../shortcodes/theme-shortcodes.php:1299
+#: ../shortcodes/theme-shortcodes.php:1828
+#: ../shortcodes/theme-shortcodes.php:2326
+msgid "Select the meta data you want to display."
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:589
+#: ../shortcodes/theme-shortcodes.php:796
+msgid "Hub Award"
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:593
+#: ../shortcodes/theme-shortcodes.php:800
+#: ../shortcodes/theme-shortcodes.php:1834
+msgid "Ratings"
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:599
+#: ../shortcodes/theme-shortcodes.php:806
+#: ../shortcodes/theme-shortcodes.php:1840
+msgid "Select the ratings you want to display."
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:605
+#: ../shortcodes/theme-shortcodes.php:812
+#: ../shortcodes/theme-shortcodes.php:1305
+#: ../shortcodes/theme-shortcodes.php:2332
+msgid "Read More Link"
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:606
+#: ../shortcodes/theme-shortcodes.php:813
+#: ../shortcodes/theme-shortcodes.php:1306
+#: ../shortcodes/theme-shortcodes.php:2333
+msgid "Add a read more link below the content."
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:612
+#: ../shortcodes/theme-shortcodes.php:1312
+#: ../shortcodes/theme-shortcodes.php:1453
+#: ../shortcodes/theme-shortcodes.php:2339
+msgid "Pagination"
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:613
+#: ../shortcodes/theme-shortcodes.php:1313
+#: ../shortcodes/theme-shortcodes.php:1454
+#: ../shortcodes/theme-shortcodes.php:2340
+msgid "Add pagination."
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:619
+#: ../shortcodes/theme-shortcodes.php:1014
+#: ../shortcodes/theme-shortcodes.php:1319
+#: ../shortcodes/theme-shortcodes.php:1460
+#: ../shortcodes/theme-shortcodes.php:2346
+msgid "See All"
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:620
+#: ../shortcodes/theme-shortcodes.php:1015
+#: ../shortcodes/theme-shortcodes.php:1320
+#: ../shortcodes/theme-shortcodes.php:1461
+#: ../shortcodes/theme-shortcodes.php:2347
+msgid "Add a \"See All\" link."
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:626
+#: ../shortcodes/theme-shortcodes.php:1021
+#: ../shortcodes/theme-shortcodes.php:1326
+#: ../shortcodes/theme-shortcodes.php:1467
+#: ../shortcodes/theme-shortcodes.php:2353
+msgid "See All Link"
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:627
+#: ../shortcodes/theme-shortcodes.php:1022
+#: ../shortcodes/theme-shortcodes.php:1327
+#: ../shortcodes/theme-shortcodes.php:1468
+#: ../shortcodes/theme-shortcodes.php:2354
+msgid "URL for the \"See All\" link."
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:633
+#: ../shortcodes/theme-shortcodes.php:1028
+#: ../shortcodes/theme-shortcodes.php:1333
+#: ../shortcodes/theme-shortcodes.php:1474
+#: ../shortcodes/theme-shortcodes.php:2360
+msgid "See All Text"
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:634
+#: ../shortcodes/theme-shortcodes.php:1029
+#: ../shortcodes/theme-shortcodes.php:1334
+#: ../shortcodes/theme-shortcodes.php:1475
+#: ../shortcodes/theme-shortcodes.php:2361
+msgid "Custom text for the \"See All\" link."
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:658
+msgid "Featured"
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:660
+msgid "Catch the attention of your visitors with a featured post or page."
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:668
+msgid "The title that appears faded in the background."
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:675
+msgid "Post Slug/ID"
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:676
+#: ../shortcodes/theme-shortcodes.php:682
+msgid "Enter the slug or ID."
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:681
+msgid "Page Slug/ID"
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:826
+msgid "CSS"
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:829
+#: ../shortcodes/theme-shortcodes.php:837
+#: ../shortcodes/theme-shortcodes.php:845
+#: ../shortcodes/theme-shortcodes.php:940
+#: ../shortcodes/theme-shortcodes.php:948
+msgid "Design options"
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:832
+#: ../shortcodes/theme-shortcodes.php:1615
+#: ../shortcodes/theme-shortcodes.php:1645
+msgid "Text Color"
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:833
+msgid "The color of the text."
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:840
+msgid "Background Overlay"
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:841
+msgid "Add a background overlay to the featured content."
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:858
+msgid "Filters"
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:860
+msgid "Add filters to your category pages."
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:875
+msgid "Parent Hub Category"
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:876
+msgid ""
+"Enter the slug or ID of the parent category you want your filters based on."
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:890
+msgid "Choose whether to add the date posted filter."
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:897
+msgid "Choose whether to add the date modified filter."
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:902
+msgid ""
+"Enter the slugs of the hub fields you want to add to the filter options, "
+"separating each with a comma e.g. genre,release-date,developed-by."
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:907
+msgid "Date Posted Text"
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:908
+msgid "The text used for the date posted dropdown menu."
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:914
+msgid "Date Modified Text"
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:915
+msgid "The text used for the date modified dropdown menu."
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:921
+msgid "Parent Category Text"
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:922
+msgid "The text used for the parent category dropdown menu."
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:928
+msgid "Submit Button Text"
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:929
+msgid "The text used for the submit button."
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:935
+#: ../shortcodes/theme-shortcodes.php:1599
+msgid "Background Color"
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:936
+#: ../shortcodes/theme-shortcodes.php:1600
+msgid "The background color."
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:943
+#: ../shortcodes/theme-shortcodes.php:1629
+msgid "Border Color"
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:944
+#: ../shortcodes/theme-shortcodes.php:1630
+msgid "The border color."
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:961
+msgid "Images"
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:963
+msgid "Display a list of images."
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:978
+msgid "Upload Images"
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:979
+msgid ""
+"Manually upload images or leave empty to display images from the child page "
+"using the Images page template."
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:985
+msgid "Number Of Images"
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:986
+msgid "The number of images to display."
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:993
+msgid "The width of the images."
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:1000
+msgid "The height of the images."
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:1053
+msgid "News"
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:1055
+msgid "Display your news posts in a variety of ways."
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:1358
+msgid "Portfolio"
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:1360
+msgid "Display your portfolio items in a variety of ways."
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:1433
+msgid "Add category filter links to the page."
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:1498
+msgid "Pricing Table"
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:1500
+msgid "A table to compare the prices of different items."
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:1519
+msgid "Pricing Column"
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:1526
+msgid "Column Title"
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:1527
+msgid "The title for the column."
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:1533
+msgid "Price"
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:1534
+msgid "The price for the column."
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:1540
+msgid "Currency Symbol"
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:1541
+msgid "The currency symbol."
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:1547
+msgid "Interval"
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:1548
+msgid "The interval for the column e.g. per week, per month."
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:1554
+msgid "Highlight Column"
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:1555
+msgid "Make this column stand out."
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:1561
+msgid "Highlight Text"
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:1562
+msgid "Add highlight text above the column title."
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:1570
+msgid ""
+"Use the Unordered List button to create the points in your pricing column. "
+"You can also add shortcodes such as the [button link=\"#\"] shortcode seen "
+"in the site demo."
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:1575
+msgid "Highlight Color"
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:1576
+msgid "The highlight color."
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:1583
+msgid "Title Color"
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:1584
+msgid "The title color."
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:1591
+msgid "Highlight Title Color"
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:1592
+msgid "The highlight title color."
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:1607
+msgid "Highlight Background Color"
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:1608
+msgid "The highlight background color."
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:1616
+msgid "The text color."
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:1622
+msgid "Border"
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:1623
+msgid "Add a border around the columns."
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:1648
+msgid "Select custom text color for bars."
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:1660
+msgid "Ranking"
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:1662
+msgid "Rank hub pages in a variety of ways."
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:1677
+msgid "Type"
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:1678
+msgid "Select type of content you want to display."
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:1681
+msgid "Hubs"
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:1682
+msgid "Reviews"
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:1683
+msgid "Hubs and Reviews"
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:1695
+msgid ""
+"Enter the hub field slugs you want to filter by. Add your taxonomy slug "
+"followed by a colon. Next enter your terms separating each by a colon also. "
+"Next add a comma and then enter the next taxonomy and so on e.g. "
+"<code>taxonomy-1:term-1:term-2,taxonomy-2:term-1,taxonomy-3:term-1:term-2</"
+"code>, this would translate to <code>genre:action:role-playing,publisher:"
+"namco,developed-by:namco:bluepoint-games</code>"
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:1747
+msgid "Items"
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:1748
+msgid "The number of items."
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:1768
+msgid "Top Ranked Image Width"
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:1769
+msgid "The width of the top ranked featured image."
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:1776
+msgid "Top Ranked Image Height"
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:1777
+msgid "The height of the top ranked featured image."
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:1784
+msgid "Small Image Width"
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:1785
+msgid "The width of the small featured images."
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:1792
+msgid "Small Image Height"
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:1793
+msgid "The height of the small featured images."
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:1800
+msgid "Background Image Width"
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:1801
+msgid "The width of the background images."
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:1807
+msgid "Background Image Height"
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:1808
+msgid "The height of the background images."
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:1862
+msgid "Team"
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:1864
+msgid "Display your team members."
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:1873
+msgid "Columns"
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:1876
+msgid "The number of columns."
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:1891
+msgid "Team Member"
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:1899
+msgid "The team member image."
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:1906
+msgid "The width of the team member image."
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:1913
+msgid "The height of the team member image."
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:1919
+#: ../shortcodes/theme-shortcodes.php:2044
+msgid "Name"
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:1920
+msgid "The name of the team member."
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:1927
+msgid "Position"
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:1928
+msgid "The position of the team member e.g. CEO"
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:1934
+msgid "Link"
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:1935
+msgid "Add a link for the team member image."
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:1941
+msgid "Link Target"
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:1942
+msgid "The link target for the team member image."
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:1944
+msgid "Same Window"
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:1944
+msgid "New Window"
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:1949
+msgid "Description"
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:1950
+msgid "The description of the team member."
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:1965
+msgid "Testimonial Slider"
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:1967
+msgid "Show your testimonials in a slider."
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:1976
+msgid "Effect"
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:1978
+msgid "Fade"
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:1979
+msgid "The slider effect."
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:1983
+msgid "Slider Speed"
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:1986
+msgid ""
+"The number of seconds between slide transitions, set to 0 to disable the "
+"autoplay."
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:1990
+msgid "Buttons"
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:1992
+msgid "Show"
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:1992
+msgid "Hide"
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:1993
+msgid "The slider buttons."
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:2008
+msgid "Testimonial"
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:2016
+msgid "The testimonial slide image."
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:2023
+msgid "The width the testimonial slide image."
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:2031
+msgid "The height of the testimonial slide images."
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:2037
+msgid "Quote"
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:2038
+msgid "The tesitmonial quote."
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:2045
+msgid "The name of the person who gave the testimonial."
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:2061
+msgid "User Rating Box"
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:2063
+msgid "Display the user rating box."
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:2080
+msgid "Videos"
+msgstr ""
+
+#: ../shortcodes/theme-shortcodes.php:2082
+msgid "Display your video posts in a variety of ways."
+msgstr ""

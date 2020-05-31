@@ -1,0 +1,144 @@
+<wpml-config> 
+
+	<custom-fields>
+		<custom-field action="translate">post_subtitle</custom-field>
+		<custom-field action="translate">page_custom_title</custom-field>
+		<custom-field action="translate">page_subtitle</custom-field>
+		<custom-field action="translate">page_tab_title</custom-field>
+		<custom-field action="translate">blog_template_custom_title</custom-field>
+		<custom-field action="translate">blog_template_subtitle</custom-field>
+		<custom-field action="translate">blog_template_tab_title</custom-field>
+		<custom-field action="translate">my_reviews_custom_title</custom-field>
+		<custom-field action="translate">my_reviews_subtitle</custom-field>
+		<custom-field action="translate">portfolio_template_custom_title</custom-field>
+		<custom-field action="translate">portfolio_template_subtitle</custom-field>
+		<custom-field action="translate">portfolio_template_tab_title</custom-field>
+		<custom-field action="translate">hub_synopsis</custom-field>
+		<custom-field action="translate">hub_award_title</custom-field>
+		<custom-field action="translate">hub_custom_title</custom-field>
+		<custom-field action="translate">hub_tab_title</custom-field>
+		<custom-field action="translate">hub_affiliate_button_link</custom-field>
+		<custom-field action="translate">hub_review_synopsis</custom-field>
+		<custom-field action="translate">hub_review_award_title</custom-field>
+		<custom-field action="translate">hub_review_custom_title</custom-field>
+		<custom-field action="translate">hub_review_subtitle</custom-field>
+		<custom-field action="translate">hub_review_tab_title</custom-field>
+		<custom-field action="translate">hub_review_rating_criteria</custom-field>
+		<custom-field action="translate">hub_review_good_points</custom-field>
+		<custom-field action="translate">hub_review_bad_points</custom-field>
+		<custom-field action="translate">hub_review_affiliate_button_link</custom-field>
+		<custom-field action="translate">review_custom_title</custom-field>
+		<custom-field action="translate">review_subtitle</custom-field>
+		<custom-field action="translate">review_tab_title</custom-field>
+		<custom-field action="translate">review_rating_criteria</custom-field>
+		<custom-field action="translate">review_good_points</custom-field>
+		<custom-field action="translate">review_bad_points</custom-field>
+		<custom-field action="translate">review_affiliate_button_link</custom-field>
+		<custom-field action="translate">news_tab_title</custom-field>
+		<custom-field action="translate">images_tab_title</custom-field>
+		<custom-field action="translate">videos_tab_title</custom-field>
+		<custom-field action="translate">link_template_tab_title</custom-field>
+		<custom-field action="translate">write_a_review_tab_title</custom-field>
+		<custom-field action="translate">user_reviews_tab_title</custom-field>
+		<custom-field action="translate">portfolio_item_link_text</custom-field>
+		<custom-field action="translate">portfolio_item_custom_title</custom-field>
+		<custom-field action="translate">portfolio_item_subtitle</custom-field>	
+		<custom-field action="copy">_backorders</custom-field>
+		<custom-field action="copy">_crosssell_ids</custom-field>
+		<custom-field action="copy">_default_attributes</custom-field>
+		<custom-field action="copy">_download_limit</custom-field>
+		<custom-field action="copy">_downloadable</custom-field>
+		<custom-field action="copy">_featured</custom-field>
+		<custom-field action="copy">_file_path</custom-field>
+		<custom-field action="copy">_manage_stock</custom-field>
+		<custom-field action="copy">_product_attributes</custom-field>
+		<custom-field action="copy">_purchase_note</custom-field>
+		<custom-field action="copy">_sale_price_dates_from</custom-field>
+		<custom-field action="copy">_sale_price_dates_to</custom-field>
+		<custom-field action="copy">_sku</custom-field>
+		<custom-field action="copy">_stock</custom-field>
+		<custom-field action="copy">_stock_status</custom-field>
+		<custom-field action="copy">_subscription_length</custom-field>
+		<custom-field action="copy">_subscription_period</custom-field>
+		<custom-field action="copy">_subscription_period_interval</custom-field>
+		<custom-field action="copy">_subscription_price</custom-field>
+		<custom-field action="copy">_subscription_sign_up_fee</custom-field>
+		<custom-field action="copy">_subscription_trial_length</custom-field>
+		<custom-field action="copy">_subscription_trial_period</custom-field>
+		<custom-field action="copy">_tax_class</custom-field>
+		<custom-field action="copy">_tax_status</custom-field> 
+		<custom-field action="copy">_upsell_ids</custom-field>
+		<custom-field action="copy">_virtual</custom-field>
+		<custom-field action="copy">_visibility</custom-field>
+		<custom-field action="copy">_weight</custom-field>
+		<custom-field action="copy">_width</custom-field>
+		<custom-field action="copy">_height</custom-field>
+		<custom-field action="copy">_length</custom-field>
+		<custom-field action="copy">_woocommerce_exclude_image</custom-field>
+		<custom-field action="copy">total_sales</custom-field>
+	</custom-fields>
+
+    <custom-types>
+        <custom-type translate="1">gp_portfolio_item</custom-type>
+        <custom-type translate="1">product</custom-type>
+        <custom-type translate="1">product_variation</custom-type>
+        <custom-type translate="0">shop_order</custom-type>
+        <custom-type translate="0">shop_coupon</custom-type>
+        <custom-type translate="1">gp_slide</custom-type>
+        <custom-type translate="1">gp_user_review</custom-type>
+        
+    </custom-types>  
+      
+    <taxonomies>
+        <taxonomy translate="1"></taxonomy>
+        <taxonomy translate="1">gp_hubs</taxonomy>
+        <taxonomy translate="1">gp_portfolios</taxonomy>
+        <taxonomy translate="0">product_type</taxonomy>
+        <taxonomy translate="1">product_cat</taxonomy>
+        <taxonomy translate="1">product_tag</taxonomy>
+        <taxonomy translate="0">product_shipping_class</taxonomy>
+        <taxonomy translate="0">shop_order_status</taxonomy>        
+        <taxonomy translate="1">gp_slides</taxonomy>
+		<taxonomy translate="1">pa_color</taxonomy>
+        <taxonomy translate="1">pa_size</taxonomy>
+        <taxonomy translate="1">gp_videos</taxonomy>
+    </taxonomies>  
+             
+    <admin-texts>
+		<key name="review_affiliate_button_text" />
+		<key name="woocommerce_shop_page_title" />
+		<key name="woocommerce_email_footer_text" />	
+		<key name="gp">		
+			<key name="hub_affiliate_button_text" />
+			<key name="copyright_text" />
+			<key name="review_site_rating_text_1" />
+			<key name="review_site_rating_text_2" />
+			<key name="review_site_rating_text_3" />
+			<key name="review_site_rating_text_4" />
+			<key name="review_site_rating_text_5" />
+			<key name="review_site_rating_text_6" />
+			<key name="review_site_rating_text_7" />
+			<key name="review_site_rating_text_8" />
+			<key name="review_site_rating_text_9" />
+			<key name="review_site_rating_text_10" />
+			<key name="write_a_review_rules" />
+			<key name="portfolio_item_link_text" />
+			<key name="hub_fields">
+				<key name="0" />
+				<key name="1" />
+				<key name="2" />
+				<key name="3" />
+				<key name="4" />
+				<key name="5" />
+				<key name="6" />
+				<key name="7" />
+				<key name="8" />
+				<key name="9" />
+				<key name="10" />
+			</key>
+		</key>					
+    </admin-texts>    
+  
+</wpml-config>
+
+
